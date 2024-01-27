@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*  remember to put ; after @tailwind <___> otherwise tailwind won't
+    work properly
+*/
+
+@layer base{
+    h1{
+        @apply shadow bg-gray-900 px-6 py-2 text-2xl text-orange-600
+    }
+}
